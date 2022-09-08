@@ -16,9 +16,17 @@ spec:
     spec:
       containers:
       - name: udagram-frontend
-        image: kemiamb/udagram-frontend:v6
+        image: kemiamb/udagram-frontend:v1
+        imagePullPolicy: Always
         ports:
-        - containerPort: 8100
+        - containerPort: 80
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "1024Mi"
+            cpu: "500m"
         envFrom:
           - configMapRef:
               name: env-config
