@@ -3,23 +3,23 @@ kind: Deployment
 metadata:
   name: backend-feed
   labels:
-    app: backend-feed
+    run: backend-feed
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: backend-feed
+      run: backend-feed
   template:
     metadata:
       labels:
-        app: backend-feed
+        run: backend-feed
     spec:
       containers:
       - name: backend-feed
-        image: kemiamb/udagram-api-feed:v1
+        image: kemiamb/udagram-api-feed:v2
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         envFrom:
           - configMapRef:
               name: env-config

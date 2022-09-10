@@ -3,23 +3,23 @@ kind: Deployment
 metadata:
   name: backend-user
   labels:
-    app: backend-user
+    run: backend-user
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: backend-user
+      run: backend-user
   template:
     metadata:
       labels:
-        app: backend-user
+        run: backend-user
     spec:
       containers:
       - name: backend-user
-        image: kemiamb/udagram-api-user:v1
+        image: kemiamb/udagram-api-user:v2
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         envFrom:
           - configMapRef:
               name: env-config
