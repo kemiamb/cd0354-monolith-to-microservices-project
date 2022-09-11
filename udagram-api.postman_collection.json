@@ -44,7 +44,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/feed",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -91,7 +91,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/feed/:id",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -128,7 +128,7 @@
 								"url": {
 									"raw": "{{host}}/api/v0/feed/:id",
 									"host": [
-										"{{host}}"
+										"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 									],
 									"path": [
 										"api",
@@ -282,7 +282,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/users/auth",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -340,7 +340,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/users/auth/login",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -396,7 +396,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/users/auth/login",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -444,7 +444,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/feed",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -503,7 +503,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/feed",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
@@ -557,7 +557,7 @@
 						"url": {
 							"raw": "{{host}}/api/v0/feed",
 							"host": [
-								"{{host}}"
+								"http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com"
 							],
 							"path": [
 								"api",
