@@ -7,6 +7,6 @@ data:
   JWT_SECRET: hello
   POSTGRES_DB: kemiadb
   POSTGRES_HOST: kemiadb.ctgnionqafeb.us-east-2.rds.amazonaws.com
-  URL: http://localhost:8080
+  URL: http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com
 metadata:
   name: env-config

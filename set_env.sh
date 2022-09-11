@@ -8,4 +8,4 @@ export AWS_BUCKET=kim-bucket-dev
 export AWS_REGION=us-east-2
 export AWS_PROFILE=default
 export JWT_SECRET=hello
-export URL=http://localhost:8100
+export URL=http://a145f4af61532470c917ec550808db36-1836385929.us-east-2.elb.amazonaws.com
